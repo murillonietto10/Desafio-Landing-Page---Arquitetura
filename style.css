@@ -1,0 +1,127 @@
+*{
+margin: 0;
+font-family: 'Inter';
+}
+
+#parte-superior{
+    background-color: #303030;
+    height: 370px;
+    width: 1280px;
+    padding-top: 10px;
+}
+
+#titulo-superior{
+    margin-left: 55px;
+    margin-top: 150px;
+    font-size: 45px;
+    color: aliceblue;
+}
+
+#texto-superior{
+    margin-left: 55px;
+    margin-top: 35px;
+    color: aliceblue;
+}
+
+#menu-informacional{
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-left: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    
+}
+
+.imagens-menu{
+    width: 210px;
+}
+
+#centro-site {
+    background-color: #ffffff;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.informacoes-textoetitulo {
+    align-items: center;
+    padding-top: 235px;
+    padding-left: 75px;
+
+}
+
+#titulo-centro {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#texto-centro {
+    font-size: 18px;
+    padding-top: 5%;
+}
+
+#Img-centro {
+    width: 450px;
+    height: 500px;
+    padding-left: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#formulario{
+    background-image: url(Imagem/rodape.svg);
+    height: 390px;
+    width: 1280px;
+
+}
+
+#formulario{
+    text-align: center;
+    padding-top: 40px;
+}
+
+#titulo-formulario{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin: 25px;
+}
+
+input{
+    width: 315px;
+    height: 45px;
+    background-color: #FFFFFF;
+    margin: 20px;
+    border: 0px;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #C07212;
+    width: 170px;
+    height: 48px;
+    border: 0px;
+    border-radius: 6px;
+    margin: 30px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #161414;
+}
+
+
+
+
+
+
+
+
